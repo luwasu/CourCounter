@@ -48,9 +48,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-
     /**
      * Increase the score for the Team B by 3 points
      */
@@ -86,9 +83,6 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
-
-
-
 
 
     /**
