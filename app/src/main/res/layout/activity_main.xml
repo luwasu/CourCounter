@@ -26,10 +26,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-
                 android:gravity="center_horizontal"
                 android:paddingBottom="16dp"
-                android:text="Team A"
+                android:text="@string/team_a"
                 android:textColor="@color/teamTextColor"
                 android:textSize="14sp" />
 
@@ -40,7 +39,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:paddingBottom="24dp"
-                android:text="0"
+                android:text="@string/score"
                 android:textColor="@color/scoreTextColor"
                 android:textSize="56sp" />
 
@@ -53,7 +52,7 @@
                 android:layout_marginRight="24dp"
                 android:onClick="displayThreeTeamA"
                 android:paddingBottom="8dp"
-                android:text="+3 Points" />
+                android:text="@string/score_3" />
 
             <Button
                 android:layout_width="match_parent"
@@ -62,7 +61,7 @@
                 android:layout_marginRight="24dp"
                 android:onClick="displayTwoTeamA"
                 android:paddingBottom="8dp"
-                android:text="+2 Points" />
+                android:text="@string/score_2" />
 
             <Button
                 android:layout_width="match_parent"
@@ -72,7 +71,7 @@
                 android:layout_marginRight="24dp"
                 android:onClick="displayFreeThrowTeamA"
                 android:paddingBottom="8dp"
-                android:text="Free Throw"
+                android:text="@string/score_1"
                 android:textAllCaps="true" />
 
 
@@ -96,7 +95,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:paddingBottom="16dp"
-                android:text="Team B"
+                android:text="@string/team_b"
                 android:textColor="@color/teamTextColor"
                 android:textSize="14sp" />
 
@@ -107,7 +106,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:paddingBottom="24dp"
-                android:text="0"
+                android:text="@string/score"
                 android:textColor="@color/scoreTextColor"
                 android:textSize="56sp" />
 
@@ -119,7 +118,7 @@
                 android:layout_marginRight="24dp"
                 android:onClick="displayThreeTeamB"
                 android:paddingBottom="8dp"
-                android:text="+3 Points" />
+                android:text="@string/score_3" />
 
             <Button
                 android:layout_width="match_parent"
@@ -128,7 +127,7 @@
                 android:layout_marginRight="24dp"
                 android:onClick="displayTwoTeamB"
                 android:paddingBottom="8dp"
-                android:text="+2 Points" />
+                android:text="@string/score_2" />
 
             <Button
                 android:layout_width="match_parent"
@@ -137,7 +136,7 @@
                 android:layout_marginRight="24dp"
                 android:onClick="displayFreeThrowTeamB"
                 android:paddingBottom="8dp"
-                android:text="Free Throw"
+                android:text="@string/score_1"
                 android:textAllCaps="true" />
 
         </LinearLayout>
@@ -152,7 +151,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="32dp"
         android:onClick="resetScore"
-        android:text="Reset"
+        android:text="@string/reset_button"
         android:textAllCaps="true" />
 
 </RelativeLayout>
